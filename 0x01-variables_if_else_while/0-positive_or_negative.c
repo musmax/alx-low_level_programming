@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 /**
- *   main - prints the phrase "n is positive if >0, n is negative if <0 then n is zero if n==0"
+/* betty style doc for function main goes there */
+/**
+ *   main - prints the phrase "n is 0-positive if n > 0, n is 0-negative if n<0 and n is zerp if n == 0
  *   Return: 0 if existed properly, non-zero otherwise
  */
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 		int n;
@@ -14,13 +17,13 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
 				if(n > 0){
-				printf(n, "is positive");
+				printf(n, " 0-positive");
 				}
 				else if(n == 0){
 				printf(n, "is zero");
 				}
 				else{
-				printf(n, "is negative"}
+				printf(n, "0-negative"}
 				
 				}
 				return (0);
