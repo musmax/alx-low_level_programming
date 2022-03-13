@@ -2,26 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *   main - prints the phrase "n is 0-positive if n > 0, n is 0-negative if n<0 and n is zerp if n == 0
- *   Return: 0 if existed properly, non-zero otherwise
+ * main - Entry point
+ *
+ * Return: Always 0(success/correct)
  */
+int main(void){
+int n;
+srand(time(0));
+n = rand() - RAND_MAX /2;
 
-int main(void)
-{
-		int n;
-
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					/* your code goes there */
-				if(n > 0){
-				printf(n,"if the number is greater than 0: %d\n", "is positive");
-				}
-				else if(n == 0){
-				printf(n, "if the number is 0: %d\n", "is zero");
-				}
-				else{
-				printf(n, "if the number is less than 0: %d\n", "is negative");
-				}
-				return (0);
-					
+if(n == 0){
+printf("%d: is zero\n", n);
+}
+else if(n > 0){
+printf("%d: is positive\n",n);
+}
+else{
+printf("%d: is negative\n",n);
+}
+return (0);
 }
