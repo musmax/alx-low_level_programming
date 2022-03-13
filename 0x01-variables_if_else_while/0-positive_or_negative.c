@@ -1,9 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/**
-/* betty style doc for function main goes there */
 /**
  *   main - prints the phrase "n is 0-positive if n > 0, n is 0-negative if n<0 and n is zerp if n == 0
  *   Return: 0 if existed properly, non-zero otherwise
