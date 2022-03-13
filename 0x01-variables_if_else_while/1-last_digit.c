@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - entry point
- *
+ *it is meant to print last digit of a number
  * Returns : Always 0 (success/correct)
  */
 int main(void)
@@ -20,7 +20,7 @@ else if (n % 10 == 0)
 {
 printf("Last digut of %i is %i and is zero\n", n, n % 10);
 }
-else 
+else
 {
 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
