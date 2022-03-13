@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *it is meant to print last digit of a number
- * Returns : Always 0 (success/correct)
+ * Return: Always 0(success/correct)
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ printf("Last digit of %i is %i and is greater than 5\n", n, n % 10);
 }
 else if (n % 10 == 0)
 {
-printf("Last digut of %i is %i and is zero\n", n, n % 10);
+printf("Last digit of %i is %i and is 0\n", n, n % 10);
 }
 else
 {
