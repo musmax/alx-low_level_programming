@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.>
 /** 
  * main - entry point
  *
@@ -7,10 +7,8 @@
  */
 int main(void){
 char c;
-c = "a";
-while(c < "z")
-{
-putchar("the alphabets are %i\n", c);
-c++;
-}
+c = 'a';
+while(c <= 'z'){
+printf("value %d char %c\n", c, c);
+c = c+1;
 }
