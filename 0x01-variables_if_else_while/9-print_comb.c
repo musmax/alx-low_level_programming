@@ -14,9 +14,9 @@ for (go = 0; go < 10; go++)
 putchar (go);
 }
 putchar ('\n');
-for (come = 10; come > 0; come--)
+for (come = 9; come > 0; come--)
 {
-putchar (come);	
+putchar (come);
 }
 putchar ('\n');
 return (0);
