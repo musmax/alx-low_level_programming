@@ -5,9 +5,10 @@
  *
  * Return: Always 0(success/correct)
  */
-int main(void){
+int main(void)
+{
 char c;
-for(c = 'a';c < 'z';c++)
+for(c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
