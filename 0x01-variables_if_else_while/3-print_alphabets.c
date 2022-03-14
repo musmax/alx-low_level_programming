@@ -5,13 +5,14 @@
  * Return: Always 0(success)
  */
 int main(void){
-char lower,upper;
+char lower;
+char upper;
 for (lower='a'; lower < 'z'; lower++){
 putchar(lower);
 } 
-putchar("\n");
+putchar('\n');
 for (upper='A'; upper < 'Z'; upper++){
 putchar(upper);
 }
-putchar("\n");
+putchar('\n');
 }
