@@ -12,7 +12,7 @@ for(alpha = 'a'; alpha <= 'z'; alpha++)
 {
 while(alpha == 'q' && alpha == 'e')
 {
-break;
+continue;
 }
 putchar(alpha);
 }
