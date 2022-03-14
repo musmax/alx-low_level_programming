@@ -6,10 +6,10 @@
  * Return: Always 0(success/correct)
  */
 int main(void)
-{int i;
-for (i = 0; i < 10; i++)
+{int alpha;
+for (alpha = 0; alpha < 10; alpha++)
 {
-putchar(i);
+putchar(alpha);
 }
 putchar('\n');
 return (0);
