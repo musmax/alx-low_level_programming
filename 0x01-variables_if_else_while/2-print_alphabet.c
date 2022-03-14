@@ -9,8 +9,8 @@ int main(void){
 char c;
 c = 'a';
 while(c <= 'z'){
-int putchar("value %d\n");
-int putchar(c);
+putchar(c);
 c = c+1;
 }
+putchar(\n);
 }
