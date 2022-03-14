@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int i = 64;
+int i = 16;
 if (i % 16 == 0)
 {
 putchar (i);
