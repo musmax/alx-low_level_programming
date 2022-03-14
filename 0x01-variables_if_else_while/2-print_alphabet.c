@@ -7,10 +7,9 @@
  */
 int main(void){
 char c;
-c = 'a';
-while(c <= 'z'){
+for(c = 'a';a < 'z';c++)
+{
 putchar(c);
-c = c+1;
 }
 putchar(\n);
 }
