@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-int i = 16,32,48,64,80,96,112,128,144,160,176,192;
-if (i % 16 == 0)
+char base_16;
+for (base_16 = 48; base_16 <= 57; base_16++)
 {
 putchar (i);
 }
