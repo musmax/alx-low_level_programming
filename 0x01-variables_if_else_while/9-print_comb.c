@@ -9,12 +9,12 @@ int main(void)
 {
 int go;
 int come;
-for (go = 0; go < 10; go++)
+for (go = 48; go < 57; go++)
 {
 putchar (go);
 }
 putchar ('\n');
-for (come = 9; come >= 0; come--)
+for (come = 56; come >= 48; come--)
 {
 putchar (come);
 }
