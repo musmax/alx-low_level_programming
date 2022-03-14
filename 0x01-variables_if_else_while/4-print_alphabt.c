@@ -10,7 +10,7 @@ int main(void)
 char alpha;
 for(alpha = 'a'; alpha <= 'z'; alpha++)
 {
-while(alpha == 'q' && alpha == 'e')
+if(alpha == 101 && alpha == 113)
 {
 continue;
 }
