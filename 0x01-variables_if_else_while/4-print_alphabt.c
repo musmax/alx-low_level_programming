@@ -10,10 +10,11 @@ int main(void)
 char alpha;
 for(alpha = 'a'; alpha <= 'z'; alpha++)
 {
-if(alpha = 'q' && alpha = 'e'){
+if(alpha == 'q' && alpha == 'e'){
 break;
 }
 putchar(alpha);
 }
 putchar('\n');
+return (0);
 }
