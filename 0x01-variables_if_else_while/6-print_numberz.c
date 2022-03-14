@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.>
 /**
  * main - Entry 
  * this program use char to print 0-9
