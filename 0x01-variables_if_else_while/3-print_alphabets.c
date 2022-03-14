@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** 
+/**
  * main - Entry point
  * this program prints out lower and uppercae alphabets
  * Return: Always 0(success/correct)
@@ -12,7 +12,7 @@ char upper;
 for (lower = 'a'; lower <= 'z'; lower++)
 {
 putchar(lower);
-} 
+}
 for (upper = 'A'; upper <= 'Z'; upper++)
 {
 putchar(upper);
