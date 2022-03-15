@@ -11,7 +11,8 @@ int go;
 for (go = 48; go <= 57; go++)
 {
 putchar (go);
-putchar(,);
+putchar (,);
+putchar ();
 }
 putchar ('\n');
 return (0);
