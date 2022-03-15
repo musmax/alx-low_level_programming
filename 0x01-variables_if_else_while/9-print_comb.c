@@ -8,7 +8,6 @@
 int main(void)
 {
 int go;
-int come;
 for (go = 48; go <= 57; go++)
 {
 putchar (go);
