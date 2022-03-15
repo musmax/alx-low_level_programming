@@ -12,8 +12,8 @@ int come;
 for (go = 48; go <= 57; go++)
 {
 putchar (go);
-for (come = 57; come > 48; come--)
-{
+if (go == 57)
+{break;
 putchar (',');
 putchar (' ');
 }
