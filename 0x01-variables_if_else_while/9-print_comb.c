@@ -13,9 +13,9 @@ for (go = 48; go <= 57; go++)
 putchar (go);
 if (go == 57)
 {break;
+}
 putchar (',');
 putchar (' ');
-}
 }
 putchar ('\n');
 return (0);
