@@ -8,11 +8,15 @@
 int main(void)
 {
 int go;
-for (go = 48; go < 57; go++)
+int come;
+for (go = 48; go <= 57; go++)
 {
 putchar (go);
+for(come = 48; come < 57; come++)
+{
 putchar (',');
 putchar (' ');
+}
 }
 putchar ('\n');
 return (0);
