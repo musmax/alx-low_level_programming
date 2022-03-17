@@ -19,6 +19,7 @@ putchar(i);
 /* we omited i++ in this line*/									        }
 
 printf("Infinite loop avoided! \\o/\n");
+/* we omited the i and comma*/
 
 return (0);
 }
