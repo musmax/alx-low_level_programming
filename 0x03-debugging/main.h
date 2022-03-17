@@ -1,14 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
-#include <0-main.c>
-/**
- * main -Entry 
- * this program is about debugging
- * Return: 0(success/correct)
- */
-int main(void)
-{
-int i;
-i = 0;
-positive_negative(i);
-return (0);
-}
+
+void positive_or_negative(int i);
+
+#endif /* MAIN_H */
