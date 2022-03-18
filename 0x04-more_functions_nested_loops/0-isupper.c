@@ -5,10 +5,9 @@
  * Return 0: (success/correct)
  *
  */
-int main()
+int int_isupper(int c)
 {
-int _isupper(int c);
-if(c is uppercase)
+if(c = 65; c <= 90; c++)
 {
 return 1;
 }
