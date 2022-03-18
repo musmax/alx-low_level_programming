@@ -1,17 +1,15 @@
-#include <stdio.h>
-#include "header.h"
-
+#include "main.h"
 /**
- * main entry
- * this program return 1 if c is upper and return 0 if not.
- * Return 0: (success/correct)
+ *  *_isupper - checks if letters are uppercase.
+ *   *@c: input.
+ *    *
+ *     *Return: 1 if c is uppercase
+ *      *0 otherwise.
  */
-int int_isupper(int c)
+int _isupper(int c)
 {
-c = "C";
-if (c > 65 && c <= 95)
+if ((c >= 'A') && (c <= 'Z'))
 {
-printf("%d c is upper", c);
 return (1);
 }
 else
