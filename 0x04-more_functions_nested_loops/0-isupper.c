@@ -7,7 +7,8 @@
  */
 int int_isupper(int c)
 {
-if(c = 65; c <= 90; c++)
+c = "C";
+for(c = 65; c <= 90; c++)
 {
 printf("%d c is upper",c);
 return 1;
