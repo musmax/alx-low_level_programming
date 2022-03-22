@@ -8,12 +8,21 @@
  */
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+  
+for (c = 'a'; c <= 'z'; c++)
+{
+	if (c != 'A' && c != 'Z')
 	{
-		return (1);
+	
+		printf("%c not upper");
+			return 0;
 	}
 	else
 	{
-		return (0);
+	
+		printf("%c it is upper");
+			return 1;
 	}
+	
+}
 }
