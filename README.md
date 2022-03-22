@@ -1,1 +1,1 @@
-this is meant to teach us about pointer and array 
+#! this is my alx-low-level-programming 
