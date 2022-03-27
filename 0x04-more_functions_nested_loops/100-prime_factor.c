@@ -1,21 +1,32 @@
-#include "main.h"
+#include <stdio.h>
 /**
- *print_number - print integer.
- *@n: integer.
+ *main - largest prime facter of 612852475143.
  *
- *Return: void.
+ *Return: 0
  */
-void print_number(int n)
+int main(void)
 {
-	unsigned int x;
+	long int x, i, pf;
 
-	x = n;
-	if (n < 0)
+	pf = -1;
+	x = 612852475143;
+
+	while (x % 2 == 0)
 	{
-		_putchar(45);
-		x = -n;
+		pf = 2;
+		x = x / 2;
 	}
-	if (x / 10)
-		print_number(x / 10);
-	_putchar((x % 10) + '0');
+	for (i = 3; i <= x / 2; i = i + 2)
+	{
+		while (x % i == 0)
+		{
+			pf = i;
+			x = x / i;
+		}
+	}
+	if (x > 2)
+		pf = x;
+
+	printf("%ld\n", pf);
+	return (0);
 }
