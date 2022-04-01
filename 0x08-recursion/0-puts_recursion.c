@@ -7,11 +7,11 @@
  */
 void _puts_recursion(char *s)
 {
-s[100];
+
 int i;
-for (i = 0; s[i] != '\0'; i++)
+for (i = 0; *s != '\0'; i++)
 {
-putchar(s[i]);
+_putchar(*s);
 }
-putchar('\n');
+_putchar('\n');
 }
